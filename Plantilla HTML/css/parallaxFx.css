@@ -1,0 +1,48 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+*, html {
+         margin: 0;
+         padding: 0;
+    }
+    
+    #home {
+         background: url("../images/thetan.jpg") 50% 0 no-repeat fixed;
+        background-position: bottom;
+    }
+    
+    
+    #section2 {
+         background: url("../images/teatro.jpg") 50% 0 no-repeat fixed;
+    }
+    
+    
+    
+    #section3 {
+         background: url("../images/sec3.jpg") 50% 0 no-repeat fixed;
+    }
+
+    #home, #section2, #section3 {
+         margin: 0 auto;
+         max-width: 1920px;
+         min-height: 700px;
+         position: relative;
+         width: 100%;
+         -webkit- background-size: cover;
+         -moz- background-size: cover;
+         -o- background-size: cover;
+         background-size: cover;
+    }
+
+    
+    #section2, #section3 {
+         box-shadow: 0 0 20px rgba(0,0,0,0.4);
+         -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+    
+    .geek:nth-child(1){
+         display: block;
+         height: 465px;
+         width: 554px;
+         margin: 0 auto;
+    }

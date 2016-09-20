@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/parallaxFx.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/fontStyles.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    
+    <title>Interface del Sistema</title>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body> 
+       
+    <nav class="nav-side" id="navBar">
+
+        <a href="#" class="nav-toggle"><i class="fa fa-bars"></i></a>
+
+        <ul id="navItems">
+            <li><a href="index.html"><span class="icon-home"></span>&nbsp;&nbsp;HOME</a>
+            <li><a href="req.html"><span class="icon-pushpin"></span>&nbsp;Requerimientos del Sistema</a></li>
+            <li><a href="uml.html"><span class="icon-tree"></span>&nbsp;Diagramas UML</a></li>
+            <li><a href="cue.html"><span class="icon-file-text"></span>&nbsp;CUE</a>
+            <li><a href="javadoc.html"><span class="icon-file-text"></span>&nbsp;JAVADOC</a></li>
+            <li><a href="code.html"><span class="icon-document-file-java"></span>&nbsp;Codigo JAVA</a></li>
+            <li><a href="interface.html"><span class="icon-document-file-java"></span>&nbsp;JavaFX</a></li>
+        </ul>
+    </nav>
+    
+    <section id="section2" data-type="parallax_section" data-speed="10">
+        <br>
+        <center> <div><p><b><font color="Maroon" size="6.5"><marquee class="z-depth-5" width="100%" scrollamount="10" bgcolor="black">  *  *  *  *  *  *  ALQUILER DE VIDEOS  *  *  *  *  *  *  </marquee>    </font></b></p></div></center>        
+
+         <aricle>
+             
+                <div class="container white-text">
+               
+                 
+                  <div class="row ">
+                     
+                      <div class="col s12">
+                         
+                          <h2 class="white-text">Interface with JavaFX</h2> 
+                        
+                                            
+                      </div>
+                      <div class="row">
+                          <div class="col s12">
+                              <div class="center">
+                                    
+                                <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+                                <div id="wowslider-container0">
+                                <div class="ws_images"><ul>
+                                    <li><img src="data0/images/3.png" alt="3" title="3" id="wows0_0"/></li>
+                                    <li><img src="data0/images/4.png" alt="4" title="4" id="wows0_1"/></li>
+                                    <li><img src="data0/images/5.png" alt="5" title="5" id="wows0_2"/></li>
+                                    <li><img src="data0/images/6.png" alt="6" title="6" id="wows0_3"/></li>
+                                    <li><img src="data0/images/captura_de_pantalla_20160403_20.09.18.png" alt="Captura de pantalla 2016-04-03 20.09.18" title="Captura de pantalla 2016-04-03 20.09.18" id="wows0_4"/></li>
+                                    <li><a href="http://wowslider.com/vi"><img src="data0/images/1.png" alt="bootstrap slider" title="1" id="wows0_5"/></a></li>
+                                    <li><img src="data0/images/2.png" alt="2" title="2" id="wows0_6"/></li>
+                                </ul></div>
+                                <div class="ws_bullets"><div>
+                                    <a href="#" title="3"><span><img src="data0/tooltips/3.png" alt="3"/>1</span></a>
+                                    <a href="#" title="4"><span><img src="data0/tooltips/4.png" alt="4"/>2</span></a>
+                                    <a href="#" title="5"><span><img src="data0/tooltips/5.png" alt="5"/>3</span></a>
+                                    <a href="#" title="6"><span><img src="data0/tooltips/6.png" alt="6"/>4</span></a>
+                                    <a href="#" title="Captura de pantalla 2016-04-03 20.09.18"><span><img src="data0/tooltips/captura_de_pantalla_20160403_20.09.18.png" alt="Captura de pantalla 2016-04-03 20.09.18"/>5</span></a>
+                                    <a href="#" title="1"><span><img src="data0/tooltips/1.png" alt="1"/>6</span></a>
+                                    <a href="#" title="2"><span><img src="data0/tooltips/2.png" alt="2"/>7</span></a>
+                                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+                                <div class="ws_shadow"></div>
+                                </div>	
+                                <script type="text/javascript" src="engine0/wowslider.js"></script>
+                                <script type="text/javascript" src="engine0/script.js"></script>
+                                <!-- End WOWSlider.com BODY section -->
+                                  
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <br>
+         </aricle>
+    </section>
+   
+    
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/logicSlider.js"></script>
+    <script src="js/materialize.min.js"></script>
+         
+    <script>
+        
+          $(document).ready(function() {
+              
+                $('section[data-type="parallax_section"]').each(function() {
+                     var $bgObj = $(this);
+                     $(window).scroll(function() {
+                          $window = $(window);
+                          var yPos = -($windows.scrollTop() / $bgObj.data('speed'));
+                          var coords = '50%' + yPos + 'px';
+                          $bgObj.css({backgroundPosition: coords});
+                     });
+                });
+          });
+        
+     </script>
+</body>
+</html>

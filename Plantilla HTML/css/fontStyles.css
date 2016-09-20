@@ -1,0 +1,38 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700);
+
+*, body{
+    font-family: verdana;
+}
+
+.texto3D {
+  font-size: 2.8em;
+  color: #eee;
+  font-family: 'Comfortaa', cursive;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 34px;
+  text-shadow: 1px 1px black, 1px 1px black, 2px 2px #222, 3px 3px #222, 4px 4px #222, 5px 5px #222, 6px 6px #222, 7px 7px #222, 8px 8px #222, 9px 9px #222, 10px 10px #222, 11px 11px #222, 12px 12px #222, 13px 13px #222, 14px 14px #222, 15px 15px #222, 16px 16px #222, 17px 17px #222, 18px 18px #222, 19px 19px #222, 20px 20px #222, 21px 21px #222, 22px 22px #222, 23px 23px #222, 24px 24px #222, 25px 25px #222, 26px 26px #222, 27px 27px #222;
+  transform: rotate(-1.618deg); }
+
+.container> .row > .col > h2 {
+    font-family: fantasy;
+}
+
+.enlace:hover{
+    font-size: 1.2em;
+}
+
+.portada{
+    min-width: 225px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 20;
+    background: black;
+    color: antiquewhite
+}
+

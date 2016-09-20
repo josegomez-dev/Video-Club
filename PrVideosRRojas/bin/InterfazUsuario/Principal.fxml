@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfazUsuario.Principal">
+   <children>
+      <ImageView fitHeight="599.0" fitWidth="877.0">
+         <image>
+            <Image url="@Imagenes/Principal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnClientes" layoutX="60.0" layoutY="481.0" mnemonicParsing="false" onAction="#admiCliente" opacity="0.8" prefHeight="79.0" prefWidth="172.0" text="Clientes" textAlignment="CENTER" textFill="#522706">
+         <font>
+            <Font name="cafÈ &amp; brewery" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPeliculas" layoutX="253.0" layoutY="481.0" mnemonicParsing="false" onAction="#admiPelicula" opacity="0.8" prefHeight="79.0" prefWidth="172.0" text="Películas" textAlignment="CENTER" textFill="#522706">
+         <font>
+            <Font name="cafÈ &amp; brewery" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAlquileres" layoutX="446.0" layoutY="481.0" mnemonicParsing="false" onAction="#admiAlquiler" opacity="0.8" prefHeight="79.0" prefWidth="172.0" text="Alquileres" textAlignment="CENTER" textFill="#522706">
+         <font>
+            <Font name="cafÈ &amp; brewery" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnInventrio" layoutX="642.0" layoutY="481.0" mnemonicParsing="false" onAction="#admiInventario" opacity="0.8" prefHeight="79.0" prefWidth="172.0" text="Inventario" textAlignment="CENTER" textFill="#522706">
+         <font>
+            <Font name="cafÈ &amp; brewery" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

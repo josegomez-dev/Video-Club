@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfazUsuario.ConsultaCliente">
+   <children>
+      <Label layoutX="98.0" layoutY="69.0" text="Cédula:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="108.0" text="Nombre:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="147.0" text="Primer apellido:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="186.0" text="Teléfono:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="223.0" text="Estado:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="14.0" prefHeight="38.0" prefWidth="145.0" text="Información">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="170.0" layoutX="115.0" layoutY="47.0" startX="-100.0" stroke="#5f0b00" />
+      <TableView fx:id="tablaAlquileres" layoutX="306.0" layoutY="58.0" prefHeight="120.0" prefWidth="437.0">
+         <columns>
+            <TableColumn fx:id="cCodigo" prefWidth="72.0" text="Código" />
+            <TableColumn fx:id="cTitulo" prefWidth="200.0" text="Título" />
+            <TableColumn fx:id="cFormato" prefWidth="67.0" text="Formato" />
+            <TableColumn fx:id="cFecha" prefWidth="97.0" text="Fecha realizado" />
+         </columns>
+      </TableView>
+      <Line endX="335.0" layoutX="407.0" layoutY="48.0" startX="-100.0" stroke="#5f0b00" />
+      <Label layoutX="306.0" layoutY="14.0" prefHeight="23.0" prefWidth="281.0" text="Alquileres realizados">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="307.0" layoutY="190.0" prefHeight="38.0" prefWidth="281.0" text="Personas adicionales">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="335.0" layoutX="407.0" layoutY="223.0" startX="-100.0" stroke="#5f0b00" />
+      <TableView fx:id="tablaPA" layoutX="307.0" layoutY="232.0" prefHeight="97.0" prefWidth="436.0">
+         <columns>
+            <TableColumn fx:id="cCedula" prefWidth="127.0" text="Cédula" />
+            <TableColumn fx:id="cNombre" prefWidth="308.0" text="Nombre" />
+         </columns>
+      </TableView>
+      <Label fx:id="iCedula" layoutX="161.0" layoutY="69.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iNombre" layoutX="161.0" layoutY="108.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iApellido" layoutX="161.0" layoutY="147.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iTelefono" layoutX="161.0" layoutY="186.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iEstado" layoutX="161.0" layoutY="223.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="259.0" text="Moroso:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="iMoroso" layoutX="161.0" layoutY="259.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="295.0" text="Multa:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="iMulta" layoutX="161.0" layoutY="295.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

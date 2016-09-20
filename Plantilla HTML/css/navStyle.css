@@ -1,0 +1,93 @@
+body {
+	font-family: Helvetica;
+}
+
+.nav-side {
+	position: fixed;
+    left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 250px;
+	background: #222; /*cornflowerblue*/ 
+	box-sizing: border-box;
+	/*padding: 20px 0;*/
+
+
+    background: rgba(169,3,41,1);
+background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+    
+
+	margin-left: -250px;/*esta propiedad lo que hace es sacar el nav de la pantalla, ver como el width del nav es de 250px y por eso se le da un margen de -250 para que no sea visible*/
+	-webkit-transition: margin 200ms ease-in-out;
+	transition: margin 200ms ease-in-out;    
+    z-index: 2;
+}
+
+.nav-toggle {
+    position: absolute;
+	right: -40px;
+	top: 100px;
+	width: 40px;
+	height: 80px;
+	background: #222;
+	box-sizing: border-box;/*box-sizing: border-box; mantiene la forma de caja y al la hora de añadir un padding hace que no se salga el contenidoo quitar la propiedad para ver la diferencia*/
+	padding: 10px;
+
+   background: rgba(169,3,41,1);
+background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,0.76) 44%, rgba(109,0,25,0.45) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,0.76)), color-stop(100%, rgba(109,0,25,0.45)));
+background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,0.76) 44%, rgba(109,0,25,0.45) 100%);
+background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,0.76) 44%, rgba(109,0,25,0.45) 100%);
+background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,0.76) 44%, rgba(109,0,25,0.45) 100%);
+background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,0.76) 44%, rgba(109,0,25,0.45) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+    
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-side.nav-open {
+	margin-left: 0;
+	box-shadow: 1px 1px 3px #c6c6c6;
+}
+
+
+#gymNavImg {
+	height: 100px;
+	/*outline: solid 1px red;*/
+}
+
+#navItems {
+	padding: 0;
+	margin: 0;
+}
+
+#navItems li {
+	list-style: none;
+    width: 100%;
+}
+
+#navItems li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+}
+
+#navItems a:hover {
+    background: crimson;
+    
+	color: gold;
+    font-size: 1.3em;
+	/*border-left: solid 5px white;*/ 
+}
+
+

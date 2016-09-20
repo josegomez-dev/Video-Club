@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfazUsuario.DevolucionAlquiler">
+   <children>
+      <Label layoutX="96.0" layoutY="58.0" text="Cédula:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="97.0" text="Nombre:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="136.0" text="Estado:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="14.0" prefHeight="38.0" prefWidth="145.0" text="Información">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="480.0" layoutX="115.0" layoutY="47.0" startX="-100.0" stroke="#5f0b00" />
+      <Label fx:id="iCedula" layoutX="159.0" layoutY="58.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iNombre" layoutX="159.0" layoutY="97.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iEstado" layoutX="159.0" layoutY="136.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iMulta" layoutX="435.0" layoutY="214.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="58.0" text="ID Película:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="97.0" text="ID Ejemplar:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="iIDPelicula" layoutX="435.0" layoutY="58.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iIDEjemplar" layoutX="435.0" layoutY="97.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="136.0" text="Fecha del alquiler:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="iFechaAlquiler" layoutX="435.0" layoutY="136.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="iFechaDevolucion" layoutX="435.0" layoutY="175.0" prefHeight="23.0" prefWidth="95.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="175.0" text="Fecha de la devolución:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="379.0" layoutY="214.0" text="Multa:">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAceptar" layoutX="495.0" layoutY="281.0" mnemonicParsing="false" onAction="#aceptar" prefHeight="32.0" prefWidth="101.0" text="Aceptar">
+         <font>
+            <Font name="Not So Stout Deco" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/aceptar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

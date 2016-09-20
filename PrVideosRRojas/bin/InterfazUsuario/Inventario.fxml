@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfazUsuario.Inventario">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#302018" height="101.0" stroke="TRANSPARENT" strokeType="INSIDE" width="877.0">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#3e0100" height="255.0" radius="63.25" spread="0.31" width="0.0" />
+         </effect></Rectangle>
+      <Label layoutX="132.0" layoutY="19.0" text="Inventario de Películas" textFill="#ebeda6">
+         <font>
+            <Font name="Not So Stout Deco" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="558.0" layoutY="124.0" prefHeight="38.0" prefWidth="139.0" text="Ejemplares">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="51.0" fitWidth="49.0" layoutX="74.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/inventario.png" />
+         </image>
+      </ImageView>
+      <Line endX="195.0" layoutX="658.0" layoutY="157.0" startX="-100.0" stroke="#5f0b00" />
+      <TableView fx:id="tablaEjemplar" layoutX="558.0" layoutY="175.0" prefHeight="399.0" prefWidth="295.0">
+        <columns>
+          <TableColumn fx:id="cIDEjemplar" prefWidth="87.0" text="Código" />
+            <TableColumn fx:id="cEstado" prefWidth="140.0" text="Estado" />
+            <TableColumn fx:id="cFormato" prefWidth="66.0" text="Formato" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnListar" layoutX="441.0" layoutY="118.0" mnemonicParsing="false" onAction="#listar" prefHeight="19.0" prefWidth="82.0" text="Listar">
+         <graphic>
+            <ImageView fitHeight="18.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/listar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Not So Stout Deco" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAtras" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#atras" prefHeight="24.0" prefWidth="21.0">
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/atrás.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="tablaPelicula" layoutX="28.0" layoutY="175.0" prefHeight="399.0" prefWidth="494.0">
+         <columns>
+            <TableColumn fx:id="cIDPelicula" prefWidth="69.0" text="ID" />
+            <TableColumn fx:id="cTitulo" prefWidth="258.0" text="Título" />
+            <TableColumn fx:id="cCategoria" prefWidth="166.0" text="Categoría" />
+         </columns>
+      </TableView>
+      <Line endX="393.0" layoutX="129.0" layoutY="157.0" startX="-100.0" stroke="#5f0b00" />
+      <Label layoutX="29.0" layoutY="124.0" prefHeight="38.0" prefWidth="139.0" text="Películas">
+         <font>
+            <Font name="Not So Stout Deco" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
